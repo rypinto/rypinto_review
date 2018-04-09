@@ -9,12 +9,23 @@ import java.util.NoSuchElementException;
  * @author amehlhas
  *
  */
+/*
+File: 	Main.java
+Author:	amehlhas
+Date:	March 30, 2018
+
+Description: Java Main for execution
+*/
+
+/**
+Class:	Main
+
+Description: Java Main All methods should have a Javadoc according to STYLE.
+* @param args command-line arguments
+* @throws Exception as per typical main specifications
+*/
 final class Main {
-	/**
-	 * All methods should have a Javadoc according to STYLE.
-	 * @param args command-line arguments
-	 * @throws Exception as per typical main specifications
-	 */
+	
 	public static void main(final String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String accStr;  
